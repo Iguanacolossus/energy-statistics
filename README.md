@@ -15,7 +15,7 @@ The data set that will be used in this project is called 'US Energy Statistics' 
     - Net interstate flow of electricity per state
     - Biomass total consumtion per state
     - Biomass inputs per state
-    - Net intertate flow of electricity per state
+
  - **Short term energy outlook:** Quarterly Consumption and production for crude and distilled oil in different sectors internationaly
   - **Total energy:** 
      - Monthly solar energy consumption and generation in residential, and utility-scale sectors
@@ -44,7 +44,6 @@ The data set that will be used in this project is called 'US Energy Statistics' 
     - pyspark
     - scipy
     - matplotlib
-    - pyspark
 
  
  
