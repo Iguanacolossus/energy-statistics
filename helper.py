@@ -4,7 +4,7 @@ import json
 
 def json_read(file_name):
     '''reading in the json file '''
-    df_= pd.read_json(file_name, orient = 'index').iloc[:1000,:]
+    df_= pd.read_json(file_name, orient = 'index')#.iloc[:1000,:]
     return df_#.reset_index(inplace=True)
 
 
@@ -65,6 +65,10 @@ def fill_data_vals(new_df):
         #new_df.replace(new_df.loc[k], new_df.data[k])
     #print(new_df.data.[i])
     
+
+    ################################################3
+
+    '''subset of columns with starting string'''
     
 
 
