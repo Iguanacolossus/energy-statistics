@@ -41,9 +41,10 @@ The data set that will be used in this project is called 'US Energy Statistics' 
 
 ## Technologies:
  - Python
-    - pyspark
-    - scipy
-    - matplotlib
+    - Pandas
+    - Numpy
+    - Scipy
+    - Matplotlib
 
  
  
