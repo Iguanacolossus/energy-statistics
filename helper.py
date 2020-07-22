@@ -4,7 +4,7 @@ import json
 
 def json_read(file_name):
     '''reading in the json file '''
-    df_= pd.read_json(file_name, orient = 'index')#.iloc[:1000,:]
+    df_= pd.read_json(file_name, orient = 'index').iloc[:1000,:]
     return df_#.reset_index(inplace=True)
 
 
