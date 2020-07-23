@@ -86,4 +86,17 @@ It apears from the graph above that nuclear produces by far the most energy. Let
 ![image](17yr-monthly-coal-nuc.png)
 
 NOPE
+<br>
+<br>
+But maybe energy is getting cleaner. What about if we look at the most recient year alone (2016)
+? <br>
+![image](2016-coal-nuc.png)
 
+It looks like coal production is lower but the diffence beween coal and nuclear is just as vast.
+
+<br>
+<br>
+
+**Maybe we can get a better picture of clean vs dirty energy by look at the percentage of each in our total energy consumtion**
+![image](percent-clean.png)
+YAY

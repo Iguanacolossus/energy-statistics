@@ -70,5 +70,18 @@ def fill_data_vals(new_df):
 
     '''subset of columns with starting string'''
     
-
-
+'''
+## totals data frame into 
+coal_totals = totals[totals['name'].str.contains('Coal')]
+coal_df = coal_totals.drop([ 'data','last_updated', 'f','start','end'], axis=1).set_index('name').T.sort_index(axis=0)
+coal_2000s = coal_df[coal_df.index.str.startswith('20')]
+coal_2000s['Coal Consumption for Electricity Generation, Electric Power Sector, Monthly']
+coal_to_electric = coal_2000s['Coal Consumption for Electricity Generation, Electric Power Sector, Monthly']
+coal_to_electric = coal_to_electric[coal_to_electric !=0]
+coal_to_electric.index  =pd.to_datetime(coal_to_electric.index,format='%Y%m')
+coal_to_electric = coal_to_electric.reset_index()
+coal_to_electric['year'] = coal_to_electric['index'].dt.year
+coal_to_electric['month'] = coal_to_electric['index'].dt.month
+coal_to_electric['Coal Consumption for Electricity Generation, Electric Power Sector, Monthly'] =coal_to_electric['Coal Consumption for Electricity Generation, Electric Power Sector, Monthly'].astype(float)
+coal_ave_month = coal_to_electric.groupby(['month']).mean()
+'''
