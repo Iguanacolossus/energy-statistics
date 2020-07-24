@@ -6,7 +6,6 @@
 ## Questions:
 
  - **Is the US burning coal in a cleaner way now then in the past?** An analysis of coal ash and CO2 emissions
- - **How do historic CO2 emissions from coal compair between sectors? Is it decreasing?**
  - **How do clean energy sources stack up against each other, historically and now?**
  - **How does coal consumption/production stack up to or biggest clean energy producer?**
  - **What percent of our total energy usage comes from clean energy sources and is it getting better?**
@@ -165,8 +164,9 @@ Below is a plot of the percentage of total energy consumed in the US that came f
 
 ![image](images/percent-clean5.png)
 
-
+ 
 # In conclusion
-Inconsistency within the data makes it hard to see if there is a lower percentage of ash-coal being produced at energy plants. CO2 emission are be a better indicator of whether coal is getting cleaner. There was a huge decline in CO2 from coal fired electric power plants starting in 2008 but there was also a huge that we can only hope is a true reflection of carbon capture technologies working and not a reflection of a change in the way they report it. The long standing decrease in CO2 emissions from home burning coal has been decreasing for a long time which is expected because we are burning less and less coal in the home. Coal Is still a very big source of US energy in the US and it does seem to be decreasing significantly when we compare 2016 to the past 17 years. Our Highest producing clean energy is still orders of magnitude behind generating as much energy as coal. Other clean energy sectors are even smaller producers but wind and solar have started accelerating their production in the last decade. As a bigger picture, the total percentage of us energy that comes from clean energy sources is increasing, but at a very small rate.
+Inconsistency within the data makes it hard to see if there is a lower percentage of ash-coal being produced at energy plants. CO2 emissions are a better indicator of whether coal is getting cleaner. There was a huge decline in CO2 from coal fired electric power plants starting in 2008 but there was also a huge decline in production/consumption. This may be a reflection of a change in reporting standards. The long standing decrease in CO2 emissions from home burning coal has been decreasing for a long time which is expected because we are burning less and less coal in the home. Coal Is still a very big source of energy in the US. By graph the coal consumption seems to be plummeting but statistical tests between the last year and the last 17 years seem to conclude that there is not much difference. Our Highest producing clean energy is still orders of magnitude behind generating as much energy as coal. Other clean energy sectors are even smaller producers but wind and solar have started accelerating their production in the last decade. As a bigger picture, the total percentage of us energy that comes from clean energy sources is increasing, but at a very small rate.
+
 
 America,  you can do better .
