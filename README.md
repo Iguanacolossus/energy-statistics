@@ -148,12 +148,11 @@ This graph above is 17 years of data grouped on the month by average. There is a
 The monthly coal production in 2016 was on average 20,983 trillion BTU under the 17 year monthly averages. The difference between coal and nuclear production is still as vast.
 <br>
 **Is there a significant difference in our consumption in 2016?**
-In other words, Is 2016 production numbers from the same shaped 
-population as the last 17 years? My null hypothesis is that there
-is no difference in consumption for coal between the last 17 years 
-and 2016. My alternative is that there is a significant difference in consumption. I decided to run a mann whitney u test because my samples are not normally distributed and the mann whitney u compares the medians not means.
-My result was a p value of .00036.  This is much smaller then the standard significance value of .05, so I will have to conclude that there is no significant differance between our most current year of consumption and the past 17.
-<br>*I would like to point out a couple caveats about this test. My sample sizes were 12 each so the results should be taken lightly. Also, I am not positive that this is independant data because it is comparing date time data*
+My null hypothesis is that there
+is no difference in consumption fof coal between the last 17 years 
+and 2016. My alternative is that there is a significant difference in consumption. I decided to run a mann whitney u test becauseit assumes less and my samples are not normally distributed..
+My result was a p value of .00036.  This is much smaller then the standard significance value of .05 so this means there is significan diffence between the medians of the averages in 2016 compared to the last 17 years.
+<br>*I would like to point out a caveat about this test. I am not positive that this is independant data because it is comparing date time data*
 
 <br>
 
@@ -166,7 +165,7 @@ Below is a plot of the percentage of total energy consumed in the US that came f
 
  
 # In conclusion
-Inconsistency within the data makes it hard to see if there is a lower percentage of ash-coal being produced at energy plants. CO2 emissions are a better indicator of whether coal is getting cleaner. There was a huge decline in CO2 from coal fired electric power plants starting in 2008 but there was also a huge decline in production/consumption. I can not say that emissions are decreasing faster then consumption. This huge decrease right at 2018 may be a reflection of a change in reporting standards, or a reflection in Obamas push away from coal. Coal Is still a very big source of energy in the US. By graph the coal consumption seems to be plummeting but statistical tests between the last year and the last 17 years seem to conclude that there is not much difference. Our Highest producing clean energy is still orders of magnitude behind generating as much energy as coal. Other clean energy sectors are even smaller producers but wind and solar have started accelerating their production in the last decade. The bigger picture is that  the total percentage of US energy that comes from clean energy sources is increasing, but at a very small rate.
+Inconsistency within the data makes it hard to see if there is a lower percentage of ash-coal being produced at energy plants. CO2 emissions are a better indicator of whether coal is getting cleaner. There was a huge decline in CO2 from coal fired electric power plants starting in 2008 but there was also a huge decline in production/consumption. I can not say that emissions are decreasing faster then consumption. This huge decrease right at 2008 may be a reflection of a change in reporting standards, or a reflection in Obamas push away from coal. Coal Is still a very big source of energy in the US. By graph the coal consumption seems to be plummeting and there is a statistical difference between the last year and the last 17 years. Our Highest producing clean energy is still orders of magnitude behind generating as much energy as coal. Other clean energy sectors are even smaller producers but wind and solar have started accelerating their production in the last decade. The bigger picture is that  the total percentage of US energy that comes from clean energy sources is increasing, but at a very small rate.
 
 
 America,  you can do better .
