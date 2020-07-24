@@ -86,12 +86,18 @@ I think we can say that with this data It is not clear if coal is burning cleane
 
 ## How about CO2 emission in the same time frame?
 
-![title](images/co2-res-2000.png)
+
+![plot](images/residential_coal_burning2.png)
+
+zoom in
+![plot](images/co2_res_2000b.png)
+
 </br>
 As a quick peek into CO2 emissions reporting, I plotted the CO2 emissions from coal burning in the resedential sector. The data all goes to zero which support the idea that in 2008 some reporting standards were changed. 
 <br>
 **Lets look more boadly**<br> A good portion of our coal energy is to produce electrisity. Lets look there.
-![title](images/co20coal-electric.png)
+
+![plot](images/co2_coal_electric5.png)
 
 This graph is more revealing and supports the idea that emission standards changed 2008. It also reviels that those standards are working. The rate of decreas is faster then the rate of increase since reporting started.
 
