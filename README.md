@@ -56,34 +56,35 @@ My baseline wranggler set of helper functions takes this imbedded data dictionay
 
  __________
 
- ## Polution
+ # Polution
 
-**Is Coal burning getting cleaner?**<br>
+## Is Coal burning getting cleaner?<br>
  I dug into the coal dataset and pulled out the information on coal ash percentages in diffent sectors. To give my self a summary I averaged the coal ash production produced off all the sectors , and plotted each state's/region's average over time. </b>
- ![title](images/coal-ash-ugly.png)
+ ![title](images/ugly-coal-ash2.png)
  </b>
 **Wow is that ugly!**<br>
 This plot shows me that reporting of coal ash has been very inconsistent. There are some regions that stop reporting then start again. <br>
 **What happend between 2007 and 2008?**
 In 2008 is when Obama took office and was pushng for cleaner energy production. This plot leads me to believe that , due to Obama being elected, energy stations had to change how they report there ash waste around that time. Or, some Bush era regulations on coal polution expired around that time. Further research is needed.<br>
 **This ugly graph is worth showing because it highlights the inconsistancy of reporting, especialy in 2008, but lets look at the same exact data in a different way.**<br>
-![plot](images/ave-coal-ash3.png)
+![plot](images/ave-coal-ash2.png)
 
-
+Now we can see that that the average ash percentageacross the country was about 6% before 2008 and and after the reporting changed, the average ash content went up to 9%. THe exciting part is that it looks like the percentage is trending down but Ill have to wait until we learn linear regression for that ;)<br>
 <br>
-Next I wanted to look at the diffent sectors but i wanted to narrow my view to clean up what im looking at. I decided to look at the mountain region of the US because that is where I live. <br>
+Next, I wanted to look at the diffence in energy sectors but i wanted to narrow my view to clean up what im looking at. I decided to look at the mountain region of the US because that is where I live. <br>
 
 ![plot](images/mountain-ash.png)
 <br>
-There are few few things worth noting in this graph. On first inspection "electric utility non-cogen" appears to be missing. Upon further inspection of the data table I saw that non-cogen utility and independent power measurments of ash ar almost exactly the same every year. This make me wonder if almost all independant power producers do not use cogeneration technologies. Also reporting on electric utility plants seems to have stopped in 2012 because all values drop to zero. As a summary I would say that independant power producers, electric utility and other industrial are are not burning coal any cleaner since recording started, but the commercial and industrial is making some changes and I would love to see data in the more recient years. (Remember this is only for the mountain region of the us)
+There are few things worth noteing in this graph. On first inspection "electric utility non-cogen" appears to be missing.  This is because non-cogen utility and independent power measurments of ash are almost exactly the same every year. This make me wonder if almost all independant power producers do not use cogeneration technologies. Another thing brought to light in this grapg is that reporting on electric utility plants seems to have stopped in 2012. As a summary I would say that independant power producers, electric utility and other industrial are are not burning coal any cleaner since recording started, but the commercial and industrial is making some changes and I would love to see data for the more recient years. (Remember this is only for the mountain region of the us)
 <br>
 <br>
-I would like to take a bigger picture approach and look at more regions , but narrow down to electric production becasue thats where most of our coal is used. 
+I think we can say that with this data It is not clear if coal is burning cleaner or not in america. There is alot of underr reporting, and a clear shift in reporting standard half way through the data, that it makes analysis difficult. 
 
 
+<br>
+<br>
 
-
-**How about CO2 emission in the same time frame?**
+## How about CO2 emission in the same time frame?
 
 ![title](images/co2-res-2000.png)
 </br>

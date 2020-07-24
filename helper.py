@@ -19,6 +19,7 @@ def data_to_columns(row):
 
 '''createing a list of all the keys in the data dictionary'''
 def all_keys(df):
+    
     all_keys = set([])
     for index, row in df.iterrows():
         all_keys |= row['data'].keys()
@@ -41,9 +42,19 @@ def concat_to_df(og_df, data_df):
  
 
 ''' fill in the values of zeros matrix with the values assosiated with year keys'''
-def fill_data_vals( df):
-    for i, row in concat_to_df(df, data_to_df( all_keys(df),df)).iterrows():
+def fill_data_vals(df):
+    for i, row in df.iterrows():
         for k,v in row.data.items():
-            new_df.loc[i,k] = v
-    return new_df 
-        
+            df.loc[i,k] = v
+    return df
+       
+def clean_column(df,column_name):
+    series = df[column_name]
+    new_df = series.sort_index().replace('NA',float('NaN')).dropna()
+    new_df = new_df.reset_index()
+    new_df = new_df[new_df[column_name]>0]
+    return new_df
+
+
+if __name__=='__main__':
+    df = pd.dataframe({'k1':[1,2,3],'k2':[2,3,4]})
